@@ -51,4 +51,7 @@
     <feature name="Camera">
         <param name="ios-package" value="CDVCamera" />
     </feature>
+    <feature name="Vibration">
+        <param name="ios-package" value="CDVVibration" />
+    </feature>
 </widget>

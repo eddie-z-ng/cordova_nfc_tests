@@ -20,6 +20,7 @@
 /Users/eddieng/FullStack/cordova_nfc_tests/platforms/android/ant-build/classes/com/ionicframework/starter/R$string.class \
 /Users/eddieng/FullStack/cordova_nfc_tests/platforms/android/ant-build/classes/com/ionicframework/starter/R$xml.class \
 /Users/eddieng/FullStack/cordova_nfc_tests/platforms/android/ant-build/classes/com/ionicframework/starter/R.class \
+/Users/eddieng/FullStack/cordova_nfc_tests/platforms/android/ant-build/classes/com/manueldeveloper/SpeechRecognizer.class \
 /Users/eddieng/FullStack/cordova_nfc_tests/platforms/android/ant-build/classes/com/plugin/gcm/CordovaGCMBroadcastReceiver.class \
 /Users/eddieng/FullStack/cordova_nfc_tests/platforms/android/ant-build/classes/com/plugin/gcm/GCMIntentService.class \
 /Users/eddieng/FullStack/cordova_nfc_tests/platforms/android/ant-build/classes/com/plugin/gcm/PushHandlerActivity.class \
@@ -29,6 +30,7 @@
 /Users/eddieng/FullStack/cordova_nfc_tests/platforms/android/ant-build/classes/org/apache/cordova/camera/ExifHelper.class \
 /Users/eddieng/FullStack/cordova_nfc_tests/platforms/android/ant-build/classes/org/apache/cordova/camera/FileHelper.class \
 /Users/eddieng/FullStack/cordova_nfc_tests/platforms/android/ant-build/classes/org/apache/cordova/device/Device.class \
+/Users/eddieng/FullStack/cordova_nfc_tests/platforms/android/ant-build/classes/org/apache/cordova/vibration/Vibration.class \
 /Users/eddieng/FullStack/cordova_nfc_tests/platforms/android/ant-build/dexedLibs/classes-e6610564da4ed352f6b44ba2ae63fbb8.jar \
 /Users/eddieng/FullStack/cordova_nfc_tests/platforms/android/ant-build/dexedLibs/gcm-a3c2cb5cec9b193e31963bbab697e6e5.jar \
 /Users/eddieng/FullStack/cordova_nfc_tests/platforms/android/ant-build/dexedLibs/android-support-v13-5081cb66f46a08c24084ee3920dea125.jar \

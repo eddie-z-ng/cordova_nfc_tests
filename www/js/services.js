@@ -3,7 +3,6 @@
 angular.module('starter.services', [])
 
 .factory('Camera', ['$q', function($q) {
-  console.log('got here');
   return {
     getPicture: function(options) {
       var q = $q.defer();
@@ -16,6 +15,34 @@ angular.module('starter.services', [])
       }, options);
 
       return q.promise;
+    }
+  };
+}])
+
+.factory('Vibration', function() {
+  return {
+    vibrateWithPattern: function(times) {
+      navigator.notification.vibrateWithPattern(times);
+    },
+    vibrate: function(time) {
+      navigator.notification.vibrate(time);
+    },
+    cancelVibration: function() {
+      navigator.notification.cancelVibration();
+    }
+  };
+})
+
+.factory('SpeechRecognizer', ['$q', function($q) {
+  return {
+    recognize: function(maxResults, promptMessage) {
+      var q = $q.defer();
+
+      navigator.speechrecognizer.recognize(function(results) {
+        q.resolve(results);
+      }, function(error) {
+        q.reject(error);
+      }, maxResults, promptMessage);
     }
   };
 }]);

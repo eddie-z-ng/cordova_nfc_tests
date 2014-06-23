@@ -47,6 +47,8 @@
 		2BCBC1A61BBA48D5B4D8F593 /* CDVCamera.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E290EBCDDE94F38870EAB07 /* CDVCamera.m */; };
 		EE8C0FD239C94376A7D938F8 /* CDVJpegHeaderWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BE02FE18BDE4C28A80E198C /* CDVJpegHeaderWriter.m */; };
 		19F522E68D8644D0909A3C99 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB41436AE3ED4BD487A5DF98 /* ImageIO.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		74DF1FA058A04F9FBAED4E9D /* CDVVibration.m in Sources */ = {isa = PBXBuildFile; fileRef = 843EE58DB7A345EBB9ED4553 /* CDVVibration.m */; };
+		DEDEEBCCDE8E48CEB2F50F3F /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A0AB58007F14D10AA1C5DBB /* AudioToolbox.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -129,6 +131,9 @@
 		F2C84B88A5FF4AF0BFFB6893 /* CDVJpegHeaderWriter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "CDVJpegHeaderWriter.h"; path = "org.apache.cordova.camera/CDVJpegHeaderWriter.h"; sourceTree = "<group>"; fileEncoding = 4; };
 		DDABDAAED8064ED186A0B1D0 /* CDVExif.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "CDVExif.h"; path = "org.apache.cordova.camera/CDVExif.h"; sourceTree = "<group>"; fileEncoding = 4; };
 		BB41436AE3ED4BD487A5DF98 /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "ImageIO.framework"; path = "System/Library/Frameworks/ImageIO.framework"; sourceTree = SDKROOT; fileEncoding = 4; };
+		843EE58DB7A345EBB9ED4553 /* CDVVibration.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "CDVVibration.m"; path = "org.apache.cordova.vibration/CDVVibration.m"; sourceTree = "<group>"; fileEncoding = 4; };
+		9EF94A21E312484EB06B63A3 /* CDVVibration.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "CDVVibration.h"; path = "org.apache.cordova.vibration/CDVVibration.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		5A0AB58007F14D10AA1C5DBB /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "AudioToolbox.framework"; path = "System/Library/Frameworks/AudioToolbox.framework"; sourceTree = SDKROOT; fileEncoding = 4; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -142,6 +147,7 @@
 				305D5FD1115AB8F900A74A75 /* MobileCoreServices.framework in Frameworks */,
 				5AEE5B35173C68D80009041E /* CoreLocation.framework in Frameworks */,
 				19F522E68D8644D0909A3C99 /* ImageIO.framework in Frameworks */,
+				DEDEEBCCDE8E48CEB2F50F3F /* AudioToolbox.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -236,6 +242,7 @@
 				288765FC0DF74451002DB57D /* CoreGraphics.framework */,
 				305D5FD0115AB8F900A74A75 /* MobileCoreServices.framework */,
 				BB41436AE3ED4BD487A5DF98 /* ImageIO.framework */,
+				5A0AB58007F14D10AA1C5DBB /* AudioToolbox.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -268,6 +275,8 @@
 				0E7256F6E069436EB37F2F5E /* CDVCamera.h */,
 				F2C84B88A5FF4AF0BFFB6893 /* CDVJpegHeaderWriter.h */,
 				DDABDAAED8064ED186A0B1D0 /* CDVExif.h */,
+				843EE58DB7A345EBB9ED4553 /* CDVVibration.m */,
+				9EF94A21E312484EB06B63A3 /* CDVVibration.h */,
 			);
 			name = Plugins;
 			path = "HelloCordova/Plugins";
@@ -470,6 +479,7 @@
 				CC9173AA59E64FE49BD264A9 /* PushPlugin.m in Sources */,
 				2BCBC1A61BBA48D5B4D8F593 /* CDVCamera.m in Sources */,
 				EE8C0FD239C94376A7D938F8 /* CDVJpegHeaderWriter.m in Sources */,
+				74DF1FA058A04F9FBAED4E9D /* CDVVibration.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

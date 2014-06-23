@@ -114,13 +114,17 @@
 /Users/eddieng/FullStack/cordova_nfc_tests/platforms/android/assets/www/lib/ionic/scss/ionicons/ionicons.scss \
 /Users/eddieng/FullStack/cordova_nfc_tests/platforms/android/assets/www/plugins/com.chariotsolutions.nfc.plugin \
 /Users/eddieng/FullStack/cordova_nfc_tests/platforms/android/assets/www/plugins/com.ionic.keyboard \
+/Users/eddieng/FullStack/cordova_nfc_tests/platforms/android/assets/www/plugins/com.manueldeveloper.speech-recognizer \
 /Users/eddieng/FullStack/cordova_nfc_tests/platforms/android/assets/www/plugins/com.phonegap.plugins.PushPlugin \
 /Users/eddieng/FullStack/cordova_nfc_tests/platforms/android/assets/www/plugins/org.apache.cordova.camera \
 /Users/eddieng/FullStack/cordova_nfc_tests/platforms/android/assets/www/plugins/org.apache.cordova.device \
+/Users/eddieng/FullStack/cordova_nfc_tests/platforms/android/assets/www/plugins/org.apache.cordova.vibration \
 /Users/eddieng/FullStack/cordova_nfc_tests/platforms/android/assets/www/plugins/com.chariotsolutions.nfc.plugin/www \
 /Users/eddieng/FullStack/cordova_nfc_tests/platforms/android/assets/www/plugins/com.chariotsolutions.nfc.plugin/www/phonegap-nfc.js \
 /Users/eddieng/FullStack/cordova_nfc_tests/platforms/android/assets/www/plugins/com.ionic.keyboard/www \
 /Users/eddieng/FullStack/cordova_nfc_tests/platforms/android/assets/www/plugins/com.ionic.keyboard/www/keyboard.js \
+/Users/eddieng/FullStack/cordova_nfc_tests/platforms/android/assets/www/plugins/com.manueldeveloper.speech-recognizer/www \
+/Users/eddieng/FullStack/cordova_nfc_tests/platforms/android/assets/www/plugins/com.manueldeveloper.speech-recognizer/www/speechrecognizer.js \
 /Users/eddieng/FullStack/cordova_nfc_tests/platforms/android/assets/www/plugins/com.phonegap.plugins.PushPlugin/www \
 /Users/eddieng/FullStack/cordova_nfc_tests/platforms/android/assets/www/plugins/com.phonegap.plugins.PushPlugin/www/PushNotification.js \
 /Users/eddieng/FullStack/cordova_nfc_tests/platforms/android/assets/www/plugins/org.apache.cordova.camera/www \
@@ -130,4 +134,6 @@
 /Users/eddieng/FullStack/cordova_nfc_tests/platforms/android/assets/www/plugins/org.apache.cordova.camera/www/CameraPopoverOptions.js \
 /Users/eddieng/FullStack/cordova_nfc_tests/platforms/android/assets/www/plugins/org.apache.cordova.device/www \
 /Users/eddieng/FullStack/cordova_nfc_tests/platforms/android/assets/www/plugins/org.apache.cordova.device/www/device.js \
+/Users/eddieng/FullStack/cordova_nfc_tests/platforms/android/assets/www/plugins/org.apache.cordova.vibration/www \
+/Users/eddieng/FullStack/cordova_nfc_tests/platforms/android/assets/www/plugins/org.apache.cordova.vibration/www/vibration.js \
 /Users/eddieng/FullStack/cordova_nfc_tests/platforms/android/ant-build/AndroidManifest.xml \

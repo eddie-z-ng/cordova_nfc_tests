@@ -4,19 +4,39 @@ angular.module('starter.controllers', ['starter.services'])
   $compileProvider.imgSrcSanitizationWhitelist(/^\s*(https?|ftp|mailto|file|tel):/);
 })
 
-.controller('MainCtrl', ['$scope', 'Camera', function($scope, Camera) {
+.controller('MainCtrl', ['$scope', 'Camera', 'Vibration', 'SpeechRecognizer',
+ function($scope, Camera, Vibration, SpeechRecognizer) {
+
+  $scope.vibrateTime = 2000;
 
   $scope.getPhoto = function() {
-    Camera.getPicture().then(function(imageURI) {
-      console.log(imageURI);
-      $scope.lastPhoto = imageURI;
-    }, function(err) {
-      console.err(err);
-    }, {
+    Camera.getPicture({
       quality: 75,
       targetWidth: 320,
       targetHeight: 320,
       saveToPhotoAlbum: false
+    }).then(function(imageURI) {
+      console.log(imageURI);
+      $scope.lastPhoto = imageURI;
+    }, function(err) {
+      console.err(err);
+    });
+  };
+
+  $scope.vibratePhone = function() {
+    Vibration.vibrate($scope.vibrateTime);
+  };
+
+  $scope.stopVibrate = function() {
+    Vibration.cancelVibration();
+  };
+
+  $scope.recognize = function() {
+    SpeechRecognizer.recognize(3, 'Cordova Speech Recognizer Plugin').then(function(results) {
+
+      $scope.results = results;
+    }, function(err) {
+      $scope.results = err;
     });
   };
 

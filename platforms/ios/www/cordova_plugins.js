@@ -67,6 +67,20 @@ module.exports = [
         "clobbers": [
             "CameraPopoverHandle"
         ]
+    },
+    {
+        "file": "plugins/org.apache.cordova.vibration/www/vibration.js",
+        "id": "org.apache.cordova.vibration.notification",
+        "merges": [
+            "navigator.notification"
+        ]
+    },
+    {
+        "file": "plugins/com.manueldeveloper.speech-recognizer/www/speechrecognizer.js",
+        "id": "com.manueldeveloper.speech-recognizer.speechrecognizer",
+        "clobbers": [
+            "navigator.speechrecognizer"
+        ]
     }
 ];
 module.exports.metadata = 
@@ -77,7 +91,9 @@ module.exports.metadata =
     "org.apache.cordova.device": "0.2.10",
     "com.chariotsolutions.nfc.plugin": "0.5.0",
     "com.phonegap.plugins.PushPlugin": "2.2.0",
-    "org.apache.cordova.camera": "0.3.0"
+    "org.apache.cordova.camera": "0.3.0",
+    "org.apache.cordova.vibration": "0.3.9",
+    "com.manueldeveloper.speech-recognizer": "0.0.1"
 }
 // BOTTOM OF METADATA
 });

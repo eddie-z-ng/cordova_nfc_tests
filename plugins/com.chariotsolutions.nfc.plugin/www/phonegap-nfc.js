@@ -503,8 +503,8 @@ var util = {
         }
         return bytesAsHexString;
     },
-     
-    // This function can be removed if record.type is changed to a String   
+
+    // This function can be removed if record.type is changed to a String
     /**
      * Returns true if the record's TNF and type matches the supplied TNF and type.
      *
@@ -630,3 +630,5 @@ window.nfc = nfc;
 window.ndef = ndef;
 window.util = util;
 window.fireNfcTagEvent = fireNfcTagEvent;
+
+console.log("RUN");

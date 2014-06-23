@@ -27,6 +27,10 @@
                         {
                             "xml": "<feature name=\"Camera\"><param name=\"ios-package\" value=\"CDVCamera\" /></feature>",
                             "count": 1
+                        },
+                        {
+                            "xml": "<feature name=\"Vibration\"><param name=\"ios-package\" value=\"CDVVibration\" /></feature>",
+                            "count": 1
                         }
                     ]
                 }
@@ -62,6 +66,12 @@
                             "xml": "false",
                             "count": 1
                         }
+                    ],
+                    "AudioToolbox.framework": [
+                        {
+                            "xml": "true",
+                            "count": 1
+                        }
                     ]
                 }
             }
@@ -84,6 +94,12 @@
             "PACKAGE_NAME": "com.ionicframework.starter"
         },
         "org.apache.cordova.camera": {
+            "PACKAGE_NAME": "com.ionicframework.starter"
+        },
+        "org.apache.cordova.vibration": {
+            "PACKAGE_NAME": "com.ionicframework.starter"
+        },
+        "com.manueldeveloper.speech-recognizer": {
             "PACKAGE_NAME": "com.ionicframework.starter"
         }
     },
