@@ -44,6 +44,9 @@
 		E83C6B8C94A64B0BBFF95318 /* CDVDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = B7677EE9C7F6433C8CDE4356 /* CDVDevice.m */; };
 		F9F315E27D094C0CA1B142B4 /* AppDelegate+notification.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FDFB69A766143B1ACB6A3FB /* AppDelegate+notification.m */; };
 		CC9173AA59E64FE49BD264A9 /* PushPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = D7569AB03F894D5CA71B671D /* PushPlugin.m */; };
+		2BCBC1A61BBA48D5B4D8F593 /* CDVCamera.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E290EBCDDE94F38870EAB07 /* CDVCamera.m */; };
+		EE8C0FD239C94376A7D938F8 /* CDVJpegHeaderWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BE02FE18BDE4C28A80E198C /* CDVJpegHeaderWriter.m */; };
+		19F522E68D8644D0909A3C99 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB41436AE3ED4BD487A5DF98 /* ImageIO.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -120,6 +123,12 @@
 		D7569AB03F894D5CA71B671D /* PushPlugin.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "PushPlugin.m"; path = "com.phonegap.plugins.PushPlugin/PushPlugin.m"; sourceTree = "<group>"; fileEncoding = 4; };
 		4C0A65FA7FB64D55ACD0527B /* AppDelegate+notification.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "AppDelegate+notification.h"; path = "com.phonegap.plugins.PushPlugin/AppDelegate+notification.h"; sourceTree = "<group>"; fileEncoding = 4; };
 		2FE5FB459E5449DDBB6BA198 /* PushPlugin.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "PushPlugin.h"; path = "com.phonegap.plugins.PushPlugin/PushPlugin.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		9E290EBCDDE94F38870EAB07 /* CDVCamera.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "CDVCamera.m"; path = "org.apache.cordova.camera/CDVCamera.m"; sourceTree = "<group>"; fileEncoding = 4; };
+		9BE02FE18BDE4C28A80E198C /* CDVJpegHeaderWriter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "CDVJpegHeaderWriter.m"; path = "org.apache.cordova.camera/CDVJpegHeaderWriter.m"; sourceTree = "<group>"; fileEncoding = 4; };
+		0E7256F6E069436EB37F2F5E /* CDVCamera.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "CDVCamera.h"; path = "org.apache.cordova.camera/CDVCamera.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		F2C84B88A5FF4AF0BFFB6893 /* CDVJpegHeaderWriter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "CDVJpegHeaderWriter.h"; path = "org.apache.cordova.camera/CDVJpegHeaderWriter.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		DDABDAAED8064ED186A0B1D0 /* CDVExif.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "CDVExif.h"; path = "org.apache.cordova.camera/CDVExif.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		BB41436AE3ED4BD487A5DF98 /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "ImageIO.framework"; path = "System/Library/Frameworks/ImageIO.framework"; sourceTree = SDKROOT; fileEncoding = 4; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -132,6 +141,7 @@
 				288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */,
 				305D5FD1115AB8F900A74A75 /* MobileCoreServices.framework in Frameworks */,
 				5AEE5B35173C68D80009041E /* CoreLocation.framework in Frameworks */,
+				19F522E68D8644D0909A3C99 /* ImageIO.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -225,6 +235,7 @@
 				5B1594DC16A7569C00FEF299 /* AssetsLibrary.framework */,
 				288765FC0DF74451002DB57D /* CoreGraphics.framework */,
 				305D5FD0115AB8F900A74A75 /* MobileCoreServices.framework */,
+				BB41436AE3ED4BD487A5DF98 /* ImageIO.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -252,6 +263,11 @@
 				D7569AB03F894D5CA71B671D /* PushPlugin.m */,
 				4C0A65FA7FB64D55ACD0527B /* AppDelegate+notification.h */,
 				2FE5FB459E5449DDBB6BA198 /* PushPlugin.h */,
+				9E290EBCDDE94F38870EAB07 /* CDVCamera.m */,
+				9BE02FE18BDE4C28A80E198C /* CDVJpegHeaderWriter.m */,
+				0E7256F6E069436EB37F2F5E /* CDVCamera.h */,
+				F2C84B88A5FF4AF0BFFB6893 /* CDVJpegHeaderWriter.h */,
+				DDABDAAED8064ED186A0B1D0 /* CDVExif.h */,
 			);
 			name = Plugins;
 			path = "HelloCordova/Plugins";
@@ -452,6 +468,8 @@
 				E83C6B8C94A64B0BBFF95318 /* CDVDevice.m in Sources */,
 				F9F315E27D094C0CA1B142B4 /* AppDelegate+notification.m in Sources */,
 				CC9173AA59E64FE49BD264A9 /* PushPlugin.m in Sources */,
+				2BCBC1A61BBA48D5B4D8F593 /* CDVCamera.m in Sources */,
+				EE8C0FD239C94376A7D938F8 /* CDVJpegHeaderWriter.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

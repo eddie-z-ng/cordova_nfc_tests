@@ -19,6 +19,10 @@
                         {
                             "xml": "<feature name=\"PushPlugin\"><param name=\"android-package\" value=\"com.plugin.gcm.PushPlugin\" /></feature>",
                             "count": 1
+                        },
+                        {
+                            "xml": "<feature name=\"Camera\"><param name=\"android-package\" value=\"org.apache.cordova.camera.CameraLauncher\" /></feature>",
+                            "count": 1
                         }
                     ],
                     "/widget": [
@@ -82,6 +86,12 @@
                             "xml": "<service android:name=\"com.plugin.gcm.GCMIntentService\" />",
                             "count": 1
                         }
+                    ],
+                    "/*": [
+                        {
+                            "xml": "<uses-permission android:name=\"android.permission.WRITE_EXTERNAL_STORAGE\" />",
+                            "count": 1
+                        }
                     ]
                 }
             }
@@ -101,6 +111,9 @@
             "PACKAGE_NAME": "com.ionicframework.starter"
         },
         "com.phonegap.plugins.PushPlugin": {
+            "PACKAGE_NAME": "com.ionicframework.starter"
+        },
+        "org.apache.cordova.camera": {
             "PACKAGE_NAME": "com.ionicframework.starter"
         }
     },
